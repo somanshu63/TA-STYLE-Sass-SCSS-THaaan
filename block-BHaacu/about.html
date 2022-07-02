@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>assignment-1-SCSS</title>
+    <link rel="stylesheet" href="stylesheet/style.css">
+    <script src="https://kit.fontawesome.com/615eec2c8f.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body class="home">
+    <header>
+        <div class="container flex sm-column ver-center header">
+            <div class="flex">
+                <address>
+                    <i class="fa-solid fa-phone-flip"></i>
+                    +1-1245-678-980
+                </address>
+                <address>
+                    <i class="fa-solid fa-envelope"></i>
+                    info@yourdomain.com
+                </address>
+            </div>
+            <nav>
+                <ul class="flex">
+                    <li>
+                        <a href="">
+                            <i class="fa-brands fa-facebook-square"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa-solid fa-basketball"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="container navbar flex ver-center">
+            <a href="" class="brand">tech</a>
+            <label class="bars" for="toggle">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <input id="toggle" type="checkbox">
+            <nav class="nav">
+                <ul class="flex sm-column navbar-list ver-center">
+                    <li>
+                        <a href="index.html">home</a>
+                    </li>
+                    <li>
+                        <a href="about.html" class="active">about us</a>
+                    </li>
+                    <li>
+                        <a href="services.html">services</a>
+                    </li>
+                    <li>
+                        <a href="#" class="dropdown-hover">
+                            <div class="dropdown">
+                                <button class="dropbtn">pages<i class="fa-solid fa-angle-down"></i></button>
+                                <div class="dropdown-content">
+                                    <a href="pricing.html">pricing</a>
+                                    <a href="#">portfolio</a>
+                                    <a href="error.html">404 page</a>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="dropdown-hover">
+                            <div class="dropdown">
+                                <button class="dropbtn">blog<i class="fa-solid fa-angle-down"></i></button>
+                                <div class="dropdown-content">
+                                    <a href="#">blog</a>
+                                    <a href="#">blog single</a>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html">contact us</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="heading flex ver-center hor-center flex-col">
+            <h1>about us</h1>
+            <p>Aspernatur at enim excepturi facere in reiciendis</p>
+        </div>
+        <section class="flex-start leader-section sm-column container padding flex">
+            <article class="flex-48 sm-width-full">
+                <h5>About us</h5>
+                <h3>We are a Industry leader in technical and consulting services</h3>
+                <p class="p-text">there are many variations of passages of lorem ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words. lorem ipsum dolor sit amet, consectetur adipscing elit. Eius eligendi fugiat labore libero moletias provident quae quaerat quis! Aspernatur at enim excepturi facere in non reiciendis soluta totam, voluptas voluptate!</p>
+            </article>
+            <figure class="flex-40 sm-width-full">
+                <img src="assets/media/img-woman-1.jpg" alt="woman">
+            </figure>
+        </section>
+        <section class="container about-vision sm-column flex padding">
+            <figure class="flex-40 sm-width-full">
+                <img src="assets/media/vision.svg" alt="vision">
+            </figure>
+            <div class="flex-60 sm-width-full">
+                <div class="flex visions ver-center">
+                    <i class="fa-solid fa-rocket"></i>
+                    <article>
+                        <h5>mission</h5>
+                        <p class="p-text">There are many variations of passages of lorem ipsum available, but the majority have suffered alteration in soem form</p>
+                    </article>
+                </div>
+                <div class="flex visions ver-center">
+                    <i class="fa-solid fa-eye"></i>
+                    <article>
+                        <h5>vision</h5>
+                        <p class="p-text">There are many variations of passages of lorem ipsum available, but the majority have suffered alteration in soem form</p>
+                    </article>
+                </div>
+                <div class="flex visions ver-center">
+                    <i class="fa-solid fa-globe"></i>
+                    <article>
+                        <h5>values</h5>
+                        <p class="p-text">There are many variations of passages of lorem ipsum available, but the majority have suffered alteration in soem form</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="container team padding text-center">
+            <h2>our team</h2>
+            <p>We are ready to grow with your business</p>
+            <div class="flex sm-column team-members">
+                <div class="flex-23 sm-width-full member">
+                    <img src="assets/media/team1.jpg" alt="team-member-1">
+                    <address>james rally</address>
+                    <cite>ceo</cite>
+                </div>
+                <div class="flex-23 sm-width-full member">
+                    <img src="assets/media/team2.jpg" alt="team-member-2">
+                    <address>kristen viller</address>
+                    <cite>tech director</cite>
+                </div>
+                <div class="flex-23 sm-width-full member">
+                    <img src="assets/media/team3.jpg" alt="team-member-3">
+                    <address>johanna care</address>
+                    <cite>hr director</cite>
+                </div>
+                <div class="flex-23 sm-width-full member">
+                    <img src="assets/media/team4.jpg" alt="team-member-4">
+                    <address>bruce willamson</address>
+                    <cite>finance director</cite>
+                </div>
+            </div>
+        </section>
+        <div class="container about-solution solutions text-center padding">
+            <h2>Get our best Solution</h2>
+            <p class="p-heading">Lorem ipsum dolor sit amet, consectetur adipscing elit sed do eiusmod dolor<br> sit amet, consectetur adipscing elit, sed do eiusmod</p>
+            <a href="" class="btn-primary">read the story</a>
+        </div>
+        <section class="clients text-center container padding ">
+            <h2>our clients</h2>
+            <div class="flex">
+                <figure class="flex-15">
+                    <img src="assets/media/airbnb.png" alt="airbnb">
+                </figure>
+                <figure class="flex-15">
+                    <img src="assets/media/atlassian.png" alt="atlassian">
+                </figure>
+                
+                <figure class="flex-15">
+                    <img src="assets/media/debonairs.png" alt="debonairs">
+                </figure>
+                <figure class="flex-15">
+                    <img src="assets/media/fitbit.png" alt="fitbit">
+                </figure>
+                <figure class="flex-15">
+                    <img src="assets/media/patio.png" alt="warehouse">
+                </figure>
+                <figure class="flex-15">
+                    <img src="assets/media/spotify.png" alt="spotify">
+                </figure>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container padding text-center">
+            <div class="flex-start sm-column flex">
+                <ul class="flex-25 sm-width-full">
+                    <h4>reach us</h4>
+                    <address>
+                        <i class="fa-solid fa-location-arrow"></i>
+                        #123, manhatt 7 avenu, NYC
+                    </address>
+                    <address>
+                        <i class="fa-solid fa-phone-flip"></i>
+                        +1-1245-678-980
+                    </address>
+                    <address>
+                        <i class="fa-solid fa-envelope"></i>
+                        info@yourdomain.com
+                    </address>
+                </ul>
+                <div class="flex ul2 flex-50 sm-width-full">
+                    <ul class="flex-25 site-links">
+                        <h4>site links</h4>
+                        <li>
+                            <a href="index.html">home</a>
+                        </li>
+                        <li>
+                            <a href="about.html">about us</a>
+                        </li>
+                        <li>
+                            <a href="services.html">services</a>
+                        </li>
+                        <li>
+                            <a href="">portfolio</a>
+                        </li>
+                        <li>
+                            <a href="pricing.html">pricing</a>
+                        </li>
+                    </ul>
+                    <ul class="flex-20 quick-links">
+                        <h4>quick links</h4>
+                        <li>
+                            <a href="">blog</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">contact us</a>
+                        </li>
+                        <li>
+                            <a href="">privacy policy</a>
+                        </li>
+                        <li>
+                            <a href="">terms & conditions</a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="flex-20 follow-us">
+                    <h4>follow us</h4>
+                    <nav>
+                        <ul class="flex">
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands fa-facebook-square"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands fa-linkedin"></i>         
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </ul>
+            </div>
+            <small>by WebThemez. <br>&copy;All Rights Reserved</small>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>assignment-1-SCSS</title>
+    <link rel="stylesheet" href="stylesheet/style.css">
+    <script src="https://kit.fontawesome.com/615eec2c8f.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body class="home">
+    <header>
+        <div class="container flex sm-column ver-center header">
+            <div class="flex">
+                <address>
+                    <i class="fa-solid fa-phone-flip"></i>
+                    +1-1245-678-980
+                </address>
+                <address>
+                    <i class="fa-solid fa-envelope"></i>
+                    info@yourdomain.com
+                </address>
+            </div>
+            <nav>
+                <ul class="flex">
+                    <li>
+                        <a href="">
+                            <i class="fa-brands fa-facebook-square"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa-solid fa-basketball"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="container navbar flex ver-center">
+            <a href="" class="brand">tech</a>
+            <label class="bars" for="toggle">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <input id="toggle" type="checkbox">
+            <nav class="nav">
+                <ul class="flex sm-column navbar-list ver-center">
+                    <li>
+                        <a href="index.html">home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">about us</a>
+                    </li>
+                    <li>
+                        <a href="services.html" class="active">services</a>
+                    </li>
+                    <li>
+                        <a href="#" class="dropdown-hover">
+                            <div class="dropdown">
+                                <button class="dropbtn">pages<i class="fa-solid fa-angle-down"></i></button>
+                                <div class="dropdown-content">
+                                    <a href="pricing.html">pricing</a>
+                                    <a href="#">portfolio</a>
+                                    <a href="error.html">404 page</a>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="dropdown-hover">
+                            <div class="dropdown">
+                                <button class="dropbtn">blog<i class="fa-solid fa-angle-down"></i></button>
+                                <div class="dropdown-content">
+                                    <a href="#">blog</a>
+                                    <a href="#">blog single</a>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html">contact us</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="heading flex ver-center hor-center flex-col">
+            <h1>services</h1>
+            <p>Aspernatur at enim excepturi facere in reiciendis</p>
+        </div>
+        <section class="leader-section padding sm-column container flex">
+                <article class="flex-48 sm-width-full">
+                    <h5>our services</h5>
+                    <h3>Find the best services and consulting for affordable deals</h3>
+                    <p class="p-text">there are many variations of passages of lorem ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words. lorem ipsum dolor sit amet, consectetur adipscing elit. Eius eligendi fugiat labore libero moletias provident quae quaerat quis! Aspernatur at enim excepturi facere in non reiciendis soluta totam, voluptas voluptate!</p>
+                </article>
+                <figure class="flex-48 sm-width-full">
+                    <img src="assets/media/business-1.jpg" alt="business">
+                </figure>
+        </section>
+        <section class="container padding products text-center">
+            <h2>our products</h2>
+            <p class="p-heading">Eius eligendi fugiat libero molestias provident quae quaerat quis!</p>
+            <div class="products first-3 sm-column flex flex-wrap">
+                <article class="product-item flex-30 sm-width-full">
+                    <img src="assets/media/feature.svg" alt="feature">
+                    <h4>excellent features</h4>
+                    <p class="p-text">Achieve virtually any look and layout design within one UI Kit solution</p>
+                </article>
+                <article class="product-item flex-30 sm-width-full">
+                    <img src="assets/media/api.svg" alt="api">
+                    <h4>powerful API</h4>
+                    <p class="p-text">We strive to figure out ways to help your audience grow through all platforms.</p>
+                </article>
+                <article class="product-item flex-30 sm-width-full">
+                    <img src="assets/media/blockchain.svg" alt="blockchain">
+                    <h4>blockchain based</h4>
+                    <p class="p-text">Find what you need in one template and combine features at will.</p>
+                </article>
+            </div>
+            <hr>
+            <div class="products flex flex-wrap">
+                <article class="product-item flex-30 sm-width-full">
+                    <img src="assets/media/vuejs.svg" alt="vuejs">
+                    <h4>vueJS included</h4>
+                    <p class="p-text">There are many variations of passages pf Lorem Ipsum available but the majority have suffered alteration in some form</p>
+                </article>
+                <article class="product-item flex-30 sm-width-full">
+                    <img src="assets/media/react.svg" alt="react">
+                    <h4>react powered</h4>
+                    <p class="p-text">There are many variations of passages pf Lorem Ipsum available but the majority have suffered alteration in some form</p>
+                </article>
+                <article class="product-item flex-30 sm-width-full">
+                    <img src="assets/media/angular.svg" alt="angular">
+                    <h4>angular compatible</h4>
+                    <p class="p-text">There are many variations of passages pf Lorem Ipsum available but the majority have suffered alteration in some form</p>
+                </article>
+            </div>
+        </section>
+        <div class="container sm-column flex best-servicespage ver-center">
+            <div class="flex sm-column ver-center">
+                <h4>best deals</h4>
+                <span>|</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipscing elit, sed do qiusmod</p>
+            </div>
+            <a href="" class="btn-tertiary">grab the deal</a>
+        </div>
+        <section class="text-center best-awarded padding container">
+            <h2>best awarded</h2>
+            <p class="p-heading">There are many variations of passages pf Lorem Ipsum available but the<br> majority have suffered alteration in some form</p>
+            <div class="flex sm-column leader-section text-center">
+                <article class="flex-50 sm-width-full">
+                    <img src="assets/media/feature.svg" alt="feature">
+                    <h3>There are many variations of passages of Lorem Ipsum available</h3>
+                    <p class="p-text">there are many variations of passages of lorem ipsum available, but the majority have suffered alteration in some form</p>
+                </article>
+                <figure class="flex-48 sm-width-full">
+                    <img src="assets/media/business-4.jpg" alt="business">
+                </figure>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container padding text-center">
+            <div class="flex-start sm-column flex">
+                <ul class="flex-25 sm-width-full">
+                    <h4>reach us</h4>
+                    <address>
+                        <i class="fa-solid fa-location-arrow"></i>
+                        #123, manhatt 7 avenu, NYC
+                    </address>
+                    <address>
+                        <i class="fa-solid fa-phone-flip"></i>
+                        +1-1245-678-980
+                    </address>
+                    <address>
+                        <i class="fa-solid fa-envelope"></i>
+                        info@yourdomain.com
+                    </address>
+                </ul>
+                <div class="flex ul2 flex-50 sm-width-full">
+                    <ul class="flex-25 site-links">
+                        <h4>site links</h4>
+                        <li>
+                            <a href="index.html">home</a>
+                        </li>
+                        <li>
+                            <a href="about.html">about us</a>
+                        </li>
+                        <li>
+                            <a href="services.html">services</a>
+                        </li>
+                        <li>
+                            <a href="">portfolio</a>
+                        </li>
+                        <li>
+                            <a href="pricing.html">pricing</a>
+                        </li>
+                    </ul>
+                    <ul class="flex-20 quick-links">
+                        <h4>quick links</h4>
+                        <li>
+                            <a href="">blog</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">contact us</a>
+                        </li>
+                        <li>
+                            <a href="">privacy policy</a>
+                        </li>
+                        <li>
+                            <a href="">terms & conditions</a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="flex-20 follow-us">
+                    <h4>follow us</h4>
+                    <nav>
+                        <ul class="flex">
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands fa-facebook-square"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands fa-linkedin"></i>         
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </ul>
+            </div>
+            <small>by WebThemez. <br>&copy;All Rights Reserved</small>
+        </div>
+    </footer>
+</body>
+</html>

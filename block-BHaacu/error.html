@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>assignment-1-SCSS</title>
+    <link rel="stylesheet" href="stylesheet/style.css">
+    <script src="https://kit.fontawesome.com/615eec2c8f.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body class="home">
+    <header>
+        <div class="container flex sm-column ver-center header">
+            <div class="flex">
+                <address>
+                    <i class="fa-solid fa-phone-flip"></i>
+                    +1-1245-678-980
+                </address>
+                <address>
+                    <i class="fa-solid fa-envelope"></i>
+                    info@yourdomain.com
+                </address>
+            </div>
+            <nav>
+                <ul class="flex">
+                    <li>
+                        <a href="">
+                            <i class="fa-brands fa-facebook-square"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa-solid fa-basketball"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="container navbar flex ver-center">
+            <a href="" class="brand">tech</a>
+            <label class="bars" for="toggle">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <input id="toggle" type="checkbox">
+            <nav class="nav">
+                <ul class="flex sm-column navbar-list ver-center">
+                    <li>
+                        <a href="index.html">home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">about us</a>
+                    </li>
+                    <li>
+                        <a href="services.html">services</a>
+                    </li>
+                    <li>
+                        <a href="#" class="dropdown-hover">
+                            <div class="dropdown">
+                                <button class="dropbtn">pages<i class="fa-solid fa-angle-down"></i></button>
+                                <div class="dropdown-content">
+                                    <a href="pricing.html">pricing</a>
+                                    <a href="#">portfolio</a>
+                                    <a href="error.html" class="active">404 page</a>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="dropdown-hover">
+                            <div class="dropdown">
+                                <button class="dropbtn">blog<i class="fa-solid fa-angle-down"></i></button>
+                                <div class="dropdown-content">
+                                    <a href="#">blog</a>
+                                    <a href="#">blog single</a>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html">contact us</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="heading flex ver-center hor-center flex-col">
+            <h1>404 page</h1>
+            <p>Aspernatur at enim excepturi facere in reiciendis</p>
+        </div>
+        <section class="padding container error text-center contact-details">
+            <h2>page not found!</h2>
+            <p class="p-heading">looks like something went wrong on our end. head back to the main homepage</p>
+            <div class="flex sm-column details-list">
+                <div class="flex-30 sm-width-full details-item">
+                    <i class="fa-solid fa-location-arrow"></i>
+                    <address class="address-heading">address</address>
+                    <address class="address-text">132 Manhatten Str., NewYork,US</address>
+                </div>
+                <div class="flex-30 sm-width-full details-item">
+                    <i class="fa-solid fa-phone-flip"></i>
+                    <address class="address-heading">phone number</address>
+                    <address class="address-text">1-234-567-2401</address>
+                </div>
+                <div class="flex-30 sm-width-full details-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <address class="address-heading">email</address>
+                    <address class="address-text">mail@webthemez.com</address>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container padding text-center">
+            <div class="flex-start sm-column flex">
+                <ul class="flex-25 sm-width-full">
+                    <h4>reach us</h4>
+                    <address>
+                        <i class="fa-solid fa-location-arrow"></i>
+                        #123, manhatt 7 avenu, NYC
+                    </address>
+                    <address>
+                        <i class="fa-solid fa-phone-flip"></i>
+                        +1-1245-678-980
+                    </address>
+                    <address>
+                        <i class="fa-solid fa-envelope"></i>
+                        info@yourdomain.com
+                    </address>
+                </ul>
+                <div class="flex ul2 flex-50 sm-width-full">
+                    <ul class="flex-25 site-links">
+                        <h4>site links</h4>
+                        <li>
+                            <a href="index.html">home</a>
+                        </li>
+                        <li>
+                            <a href="about.html">about us</a>
+                        </li>
+                        <li>
+                            <a href="services.html">services</a>
+                        </li>
+                        <li>
+                            <a href="">portfolio</a>
+                        </li>
+                        <li>
+                            <a href="pricing.html">pricing</a>
+                        </li>
+                    </ul>
+                    <ul class="flex-20 quick-links">
+                        <h4>quick links</h4>
+                        <li>
+                            <a href="">blog</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">contact us</a>
+                        </li>
+                        <li>
+                            <a href="">privacy policy</a>
+                        </li>
+                        <li>
+                            <a href="">terms & conditions</a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="flex-20 follow-us">
+                    <h4>follow us</h4>
+                    <nav>
+                        <ul class="flex">
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands fa-facebook-square"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands fa-linkedin"></i>         
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </ul>
+            </div>
+            <small>by WebThemez. <br>&copy;All Rights Reserved</small>
+        </div>
+    </footer>
+</body>
+</html>
